@@ -103,7 +103,17 @@ export class SyncService {
           await this.dealRepository.save(existingDeal);
           updated++;
         } else {
-          const newDeal = this.dealRepository.create(dealData);
+          const sanitizedDealData = {
+            ...dealData,
+            amount: dealData.amount ?? undefined,
+            closeDate: dealData.closeDate ?? undefined,
+            dealName: dealData.dealName ?? undefined,
+            dealStage: dealData.dealStage ?? undefined,
+            currency: dealData.currency ?? undefined,
+            pipeline: dealData.pipeline ?? undefined,
+            dealType: dealData.dealType ?? undefined
+        };
+          const newDeal = this.dealRepository.create(sanitizedDealData);
           await this.dealRepository.save(newDeal);
           created++;
         }
