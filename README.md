@@ -196,17 +196,35 @@ npm run test:watch
 
 ## 📸 Screenshots
 
+### Webhook and Hubspot Events
+
+<img width="1392" height="530" alt="Screenshot 2025-11-21 014333" src="https://github.com/user-attachments/assets/08000b20-236e-4bc4-a07a-593f84460907" />
+
+---
+
+<img width="1359" height="245" alt="Screenshot 2025-11-21 104931" src="https://github.com/user-attachments/assets/76bea475-5949-4fa2-b5f1-80d2b6f74d6a" />
+
+---
+
+<img width="1915" height="955" alt="Screenshot 2025-11-21 112113" src="https://github.com/user-attachments/assets/2e1f096a-7370-4370-bcb8-5aac902e9ddd" />
+
+*Shows sample webhook and Hubspot events received in the service.*
+
 ### HubSpot UI
 
-![HubSpot UI Screenshot](./screenshots/hubspot-ui.png)
+
+<img width="1007" height="749" alt="Screenshot 2025-11-21 111634" src="https://github.com/user-attachments/assets/1356e769-24d5-4b48-b43d-c9cf3aba97d6" />
+
+---
+
+<img width="1556" height="787" alt="Screenshot 2025-11-21 111655" src="https://github.com/user-attachments/assets/a2a5f241-a60c-4e1b-8306-301a533189b2" />
+
+---
+
+<img width="1561" height="611" alt="Screenshot 2025-11-21 112246" src="https://github.com/user-attachments/assets/66d4344c-b3c7-4f44-909f-1d4aa7b33a79" />
+
 *Shows the Private App & Webhooks configuration in HubSpot.*
 
-### Webhook Events
-
-![Webhook Events Screenshot](./screenshots/webhook-events.png)
-*Shows sample webhook events received in the service.*
-
-> Replace the images in `./screenshots/` with your actual screenshots.
 
 ---
 
