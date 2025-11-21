@@ -111,7 +111,7 @@ export class SyncService {
             dealStage: dealData.dealStage ?? undefined,
             currency: dealData.currency ?? undefined,
             pipeline: dealData.pipeline ?? undefined,
-            dealType: dealData.dealType ?? undefined
+            dealType: dealData.dealType ?? undefined,
         };
           const newDeal = this.dealRepository.create(sanitizedDealData);
           await this.dealRepository.save(newDeal);
